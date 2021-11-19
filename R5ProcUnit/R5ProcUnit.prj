@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="R5ProcUnit" location="C:/Users/dso_intern/workspace/R5ProcUnit" platform="C:/Users/dso_intern/workspace/MailMutex/export/MailMutex/MailMutex.xpfm" platformUID="xilinx:ultrazed_eg_iocc_production::0.0(custom)" systemProject="MultiProc_system" sysConfig="MailMutex" runtime="C/C++" cpu="standalone_psu_cortexr5_1" cpuInstance="psu_cortexr5_1" os="standalone" mssSignature="9b224baac043e78dba36c6b6d5970303">
+  <configuration name="Debug" id="xilinx.gnu.arm.r5.exe.debug.1290679203">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.r5.exe.release.667745093" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="avnet_xsa" location="C:/Users/dso_intern/workspace/avnet_xsa" platform="C:/Users/dso_intern/workspace/avnet/export/avnet/avnet.xpfm" platformUID="em.avnet.com:uz3eg_iocc_base:uz3eg_iocc_base:1.0(custom)" systemProject="avnet_files_system" sysConfig="avnet" runtime="cpp" cpu="freertos10_xilinx_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="freertos10_xilinx" mssSignature="40470f2dc386e7894474c0eb2e10dccb">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.226609833">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1030061437" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

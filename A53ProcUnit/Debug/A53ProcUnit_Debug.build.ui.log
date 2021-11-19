@@ -1,0 +1,26 @@
+2021-11-19T11:15:16.51837900255-11:15:16 **** Build of configuration Debug for project A53ProcUnit ****
+000-make all 
+000-'Building file: ../src/A53Code.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/A53Code.o" -IC:/Users/dso_intern/workspace/MailMutex/export/MailMutex/sw/MailMutex/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/A53Code.d" -MT"src/A53Code.o" -o "src/A53Code.o" "../src/A53Code.c"
+000-'Finished building: ../src/A53Code.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/dso_intern/workspace/MailMutex/export/MailMutex/sw/MailMutex/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
+000-' '
+000-'Building target: A53ProcUnit.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/dso_intern/workspace/MailMutex/export/MailMutex/sw/MailMutex/standalone_psu_cortexa53_0/bsplib/lib -o "A53ProcUnit.elf"  ./src/A53Code.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: A53ProcUnit.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size A53ProcUnit.elf  |tee "A53ProcUnit.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 122576	   4682	  21938	 149196	  246cc	A53ProcUnit.elf
+000-'Finished building: A53ProcUnit.elf.size'
+000-' '
+00255-
+11:15:17 Build Finished (took 1s.304ms)
+

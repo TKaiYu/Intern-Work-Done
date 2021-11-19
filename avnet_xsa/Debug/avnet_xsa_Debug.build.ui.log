@@ -1,0 +1,46 @@
+2021-11-16T20:55:11.071230800255-20:55:11 **** Incremental Build of configuration Debug for project avnet_xsa ****
+000-make all 
+000-'Building file: ../src/freertos_lwip_example_web_utils.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_lwip_example_web_utils.o" -IC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/freertos_lwip_example_web_utils.d" -MT"src/freertos_lwip_example_web_utils.o" -o "src/freertos_lwip_example_web_utils.o" "../src/freertos_lwip_example_web_utils.c"
+000-'Finished building: ../src/freertos_lwip_example_web_utils.c'
+000-' '
+000-'Building file: ../src/freertos_lwip_example_webserver.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_lwip_example_webserver.o" -IC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/freertos_lwip_example_webserver.d" -MT"src/freertos_lwip_example_webserver.o" -o "src/freertos_lwip_example_webserver.o" "../src/freertos_lwip_example_webserver.c"
+000-'Finished building: ../src/freertos_lwip_example_webserver.c'
+000-' '
+000-'Building file: ../src/freertos_lwip_example_ws_http_response.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_lwip_example_ws_http_response.o" -IC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/freertos_lwip_example_ws_http_response.d" -MT"src/freertos_lwip_example_ws_http_response.o" -o "src/freertos_lwip_example_ws_http_response.o" "../src/freertos_lwip_example_ws_http_response.c"
+000-'Finished building: ../src/freertos_lwip_example_ws_http_response.c'
+000-' '
+000-'Building file: ../src/freertos_lwip_example_ws_platform_fs.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_lwip_example_ws_platform_fs.o" -IC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/freertos_lwip_example_ws_platform_fs.d" -MT"src/freertos_lwip_example_ws_platform_fs.o" -o "src/freertos_lwip_example_ws_platform_fs.o" "../src/freertos_lwip_example_ws_platform_fs.c"
+000-'Finished building: ../src/freertos_lwip_example_ws_platform_fs.c'
+000-' '
+000-'Building file: ../src/lwip_example_iic_phyreset.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lwip_example_iic_phyreset.o" -IC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/lwip_example_iic_phyreset.d" -MT"src/lwip_example_iic_phyreset.o" -o "src/lwip_example_iic_phyreset.o" "../src/lwip_example_iic_phyreset.c"
+000-'Finished building: ../src/lwip_example_iic_phyreset.c'
+000-' '
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: avnet_xsa.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/dso_intern/workspace/avnet/export/avnet/sw/avnet/freertos10_xilinx_psu_cortexa53_0/bsplib/lib -o "avnet_xsa.elf"  ./src/freertos_lwip_example_web_utils.o ./src/freertos_lwip_example_webserver.o ./src/freertos_lwip_example_ws_http_response.o ./src/freertos_lwip_example_ws_platform_fs.o ./src/lwip_example_iic_phyreset.o ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: avnet_xsa.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size avnet_xsa.elf  |tee "avnet_xsa.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 273264	   8024	4280628	4561916	 459bfc	avnet_xsa.elf
+000-'Finished building: avnet_xsa.elf.size'
+000-' '
+00255-
+20:55:13 Build Finished (took 2s.303ms)
+

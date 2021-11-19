@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> FreeRTOS webserver</title>
+        <link type = "text/css" rel = "stylesheet" href = "main.css" />
+        <link rel = "shortcut icon" href = "images/echo test run through.PNG">
+        <script>
+
+        </script>
+    </head>
+
+    <body>
+        <img src = "images/linux_userspace_error.PNG" style = "padding-left: 20px;"></img>
+
+        <div id = "container">
+            <b class = "rtop">
+                <b class = "r1"></b> <b class = "r2"></b> <b class = "r3"></b> <b class=" = "r4"></b>
+            </b>
+
+            <h1>webserver</h1>
+
+            <p>avnet example</p>
+            <p>picture above is a temporary logo</p>
+
+            <h2>header</h2>
+            <p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div class = "center">
+                    <p>&nbsp;</p>
+                    <p>
+                        <form action = "">
+                            <input type = "radio" name = "scaleType" id = "vdc"> V - DC&nbsp;&nbsp;
+                            <select name = "scale" id = "vdcScaleSelect">>
+                                <option value = "7">50 V</option>
+                                <option selected value = "8">5 V</option>
+                                <option value = "9">500 mV</option>
+                                <option value = "10">50 mV</option>
+                                <option value = "18">Diode</option>
+                            </select>
+                            <br>
+                            <input type = "radio" name = "scaleType" id = "vac"> V - AC&nbsp;&nbsp;
+                            <select name = "scale" id = "vacScaleSelect" >>
+                                <option selected value="19">500 mA</option>
+                                <option value="20">50 mA</option>
+                                <option value="21">5 mA</option>
+                                <option value="22">500 uA</option>
+                            </select>
+                            <br>
+                            <input type="radio" name="scaleType" id="aac"> A - AC&nbsp;&nbsp;
+                            <select name = "scale" id = "aacScaleSelect" >>
+                                <option selected value="23">5 A</option>
+                                <option value="24">500 mA</option>
+                                <option value="25">50 mA</option>
+                                <option value="26">5 mA</option>
+                                <option value="27">500 uA</option>
+                            </select>
+                            <br>
+                            <input type="radio" name="scaleType" id="ohm"> &nbsp;&nbsp;OHM&nbsp;&nbsp;&nbsp;
+                            <select name = "scale" id = "ohmScaleSelect" >>
+                                <option value="0">50 MOHm</option>
+                                <option value="1">5 MOHm</option>
+                                <option selected value="2">500 kOhm</option>
+                                <option value="3">50 kOhm</option>
+                                <option value="4">5 kOhm</option>
+                                <option value="5">500 Ohm</option>
+                                <option value="6">50 Ohm</option>
+                                <option value="17">Continuity</option>
+                            </select>
+                            <br>
+                            <p>&nbsp;</p>
+                        </form>
+                    </p>
+                    <div style="text-align: center;">
+                    <input type="text" disabled="disabled" readonly="readonly" id="txtOutput" align = "middle" / style="width: 118px;text-align: right;">
+                    </div>
+                    <p>&nbsp;</p>
+                </div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div id="statusTxt">
+                    <p>span></p>
+                </div>
+                <div id = "debugTxt1">
+                    <p></p>
+                </div>
+                <h2> External Links </h2>
+                <p>
+                    <i> (example website)</i>
+                    <ul>
+                        <li> <a href="https://www.xilinx.com/support/documentation/application_notes/xapp1026.pdf">Xilinx LightWeight IP Application Examples</a> </li>
+                    </ul>
+                </p>
+                <b class="rbottom">
+                    <b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b>
+                </b>
+            </p>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

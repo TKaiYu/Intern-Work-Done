@@ -1,0 +1,26 @@
+2021-11-19T11:15:18.329879900255-11:15:18 **** Build of configuration Debug for project R5ProcUnit ****
+000-make all 
+000-'Building file: ../src/R5Code.c'
+000-'Invoking: ARM R5 gcc compiler'
+000-armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/R5Code.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -IC:/Users/dso_intern/workspace/MailMutex/export/MailMutex/sw/MailMutex/standalone_psu_cortexr5_1/bspinclude/include -MMD -MP -MF"src/R5Code.d" -MT"src/R5Code.o" -o "src/R5Code.o" "../src/R5Code.c"
+000-'Finished building: ../src/R5Code.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: ARM R5 gcc compiler'
+000-armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -IC:/Users/dso_intern/workspace/MailMutex/export/MailMutex/sw/MailMutex/standalone_psu_cortexr5_1/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
+000-' '
+000-'Building target: R5ProcUnit.elf'
+000-'Invoking: ARM R5 gcc linker'
+000-armr5-none-eabi-gcc -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 -Wl,-T -Wl,../src/lscript.ld -LC:/Users/dso_intern/workspace/MailMutex/export/MailMutex/sw/MailMutex/standalone_psu_cortexr5_1/bsplib/lib -o "R5ProcUnit.elf"  ./src/R5Code.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: R5ProcUnit.elf'
+000-' '
+000-'Invoking: ARM R5 Print Size'
+000-armr5-none-eabi-size R5ProcUnit.elf  |tee "R5ProcUnit.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  21148	   2808	  23692	  47648	   ba20	R5ProcUnit.elf
+000-'Finished building: R5ProcUnit.elf.size'
+000-' '
+00255-
+11:15:19 Build Finished (took 1s.546ms)
+
